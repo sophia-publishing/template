@@ -1,0 +1,75 @@
+% front cover
+{
+\begin{tikzpicture}[remember picture, overlay]
+      \node[anchor=center] at (current page.center){%
+        \includegraphics{frontcover-color.pdf}};
+\end{tikzpicture}
+}
+\cleardoublepage
+
+% half-title page
+\begin{center}
+\HUGE{\thetitle}
+\end{center}
+\cleardoublepage
+
+% title page
+\begin{center}
+\HUGE{\thetitle}
+\end{center}
+
+\begin{center}
+\LARGE{\theauthor}
+\end{center}
+
+\vfill
+
+\begin{center}
+    \sophia
+\end{center}
+\clearpage
+
+% copyright page
+\begingroup
+\footnotesize
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}
+
+\textcopyright{} 2025 Copyright Owner
+
+\includegraphics[height=20pt]{by-nc-sa.eps}
+
+This work is licensed under CC BY-NC-SA 4.0. To view a copy of this licence,
+visit:
+
+\url{https://creativecommons.org/licenses/by-nc-sa/4.0/}
+
+\vfill
+
+Sophia Publishing \\
+\textsc{Chennai} \\
+\url{https://sophia-publishing.github.io/} \\
+\endgroup
+
+\clearpage
+
+\begin{quote}
+\begin{center}
+	Dedication
+\end{center}
+\end{quote}
+
+\vfill
+
+\textbf{Acknowledgements}
+
+\footnotesize
+\begin{tabular}{ll}
+    Name & \multirow{2}{*}{Acknowledgement} \\
+    \emph{Contact} & \\
+    Name & Acknowledgement\\
+    Name & \multirow{2}{*}{Acknowledgement} \\
+    \emph{Contact} & \\
+\end{tabular}
+
+\clearpage

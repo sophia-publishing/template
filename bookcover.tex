@@ -1,0 +1,23 @@
+\documentclass[
+    coverheight=148mm, coverwidth=105mm, spinewidth=10mm,
+    bleedwidth=31mm,
+    markcolor=white,
+    foldingmargin=true, 12pt
+]{bookcover}
+
+\usepackage{ebgaramond-maths}
+\usepackage{microtype}
+
+\input{logo/logo}
+
+\begin{document}
+
+\begin{bookcover}
+    \bookcovercomponent{normal}{front}{
+        \includegraphics{frontcover-color.pdf}
+    }
+    \bookcovercomponent{normal}{back}[5mm,,5mm,]{
+        \include{backcover}
+    }
+\end{bookcover}
+\end{document}

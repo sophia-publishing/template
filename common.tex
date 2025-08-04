@@ -1,0 +1,37 @@
+\title{Book Title}
+\author{Author Name}
+
+\usepackage{tikz}
+\usepackage{framed}
+\usepackage{float}
+\usepackage[cmintegrals,cmbraces]{newtxmath}
+\usepackage{ebgaramond-maths}
+\usepackage[T1]{fontenc}
+\usepackage{lettrine}
+\usepackage{microtype}
+\usepackage{multirow}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+
+\input{logo/logo}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% frontmatter
+\frontmatter
+\include{frontmatter}
+
+\pagestyle{plain}
+\aliaspagestyle{chapter}{empty}
+
+% mainmatter
+\mainmatter
+
+\pagestyle{empty}
+
+\backmatter
+\include{backmatter}
+
+\end{document}

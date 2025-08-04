@@ -1,2 +1,2 @@
-# template
-Book template project
+# Template project for books
+
